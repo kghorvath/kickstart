@@ -1,0 +1,13 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+KJ6it7c7TYwOkMLCrTVnM1HX355U1JuyCKSbJsqajfsGXYIoqLXJLhCF2ZEL7x0EyNJ8DOK6HhApQyjWm1hqsb+Ew8qU7dqqJy+bkbxFJL7HV4ZSDh68bPDsFZRJq2CDHSSS0RSlKCF6UzqzZl59X7RAC9NjxudD0pQHx1CRtt76K30bgsUUnd6+Dmx2daLlLGM2xoDs+SUQW9ojFYqygy0qMTPHr7cxzYwB/igG04Uik13EEF/CQBYQxLs7lBnVSFC/3HdDW9XGfzZTcAuSO2WUrr/d+gvU3iFF6A5zuMWagCigLbic0V9TOjg7TYpGMh8PaKyqkhh9lu986Ji1eSAKh7WnmDgQJG0LJDV/Ci9+LlGIVitgNmQi+pIIewKPMOZt0usrWQDPsgH+4zyKx+leWgIqa/hmR1vWtiOhiwhDaBH4xc5wix5xlqmvmHn30zRHtM5FpKPIWnj4/8jT+LyukFD21twYCjhAe0mgaWRnTyew6dhtUTbPS7Dc3ck= khorvath@hokie.lan.kghorvath.com
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 0644
+      contents:
+        inline: ct1 
